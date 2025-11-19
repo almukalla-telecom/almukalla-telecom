@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>المكلا تيليكوم - أفضل تطبيق في اليمن</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Controls -->
+  <button id="darkBtn" class="control-btn" aria-label="Toggle dark">🌙</button>
+  <button id="langBtn" class="control-btn" aria-label="Toggle language">EN</button>
+
+  <!-- Offers ticker -->
+  <div class="offers-bar"><span id="barText">🔥 اشتراك Google AI Plus لمدة 4 شهور فقط بـ 2.49$ — أقوى عرض تقني 🔥</span></div>
+
+  <!-- Header / Hero -->
+  <header class="hero">
+    <canvas id="smokeCanvas" aria-hidden="true"></canvas>
+    <img src="logo.png" alt="logo" class="logo circle" id="siteLogo">
+    <h1 id="title" class="app-name">المكلا تيليكوم</h1>
+    <p id="slogan" class="slogan">أفضل تطبيق اتصالات وخدمات في اليمن</p>
+    <a id="downloadBtn" class="download-btn" href="https://apkpure.net/p/almukalla.yemoney" target="_blank" rel="noopener">⬇ تحميل التطبيق الآن</a>
+  </header>
+
+  <!-- About -->
+  <section class="about fade-section" id="aboutSection">
+    <h2 id="aboutTitle">نبذة عن التطبيق</h2>
+    <p id="aboutText">تطبيق المكلا تيليكوم هو التطبيق رقم 1 في اليمن لخدمات الاتصالات: شراء باقات، دفع فواتير، تحويل رصيد، وعروض يومية. سريع، آمن، وسهل الاستخدام.</p>
+  </section>
+
+  <!-- Offer banner -->
+  <section class="offer-banner fade-section" id="bannerSection" aria-label="Offer banner">
+    <div class="banner-inner">
+      <div class="badge">الأقوى</div>
+      <div class="banner-content">
+        <h3 id="offerName">اشتراك Google AI Plus</h3>
+        <p id="priceText">فقط <span class="money">2.49$</span> شهرياً لمدة <strong>4 شهور</strong></p>
+        <p id="offerDesc" class="small">ميزات متقدمة: Gemini Pro, Deep Research, Veo, Flow, Whisk, NotebookLM — إشتراك حصري بسعر رمزي.</p>
+      </div>
+      <a id="bannerCta" class="banner-cta" href="https://wa.me/774409663" target="_blank" rel="noopener">احصل الآن</a>
+    </div>
+  </section>
+
+  <!-- Extra offers -->
+  <section class="offers fade-section" id="offersSection">
+    <h2 id="offerSectionTitle">الخدمات المتوفرة </h2>
+    <div class="offers-box" id="offersBox">
+      <div class="offer"> تسديد مخفض محافضة الضالع </div>
+      <div class="offer"> تسديد مخفض محافظة تغز</div>
+      <div class="offer">تسديد مخفض محافظة حضرموت</div>
+      <div class="offer">تسديد مخفض محافظة شبوة</div>
+    </div>
+  </section>
+
+  <!-- Services (pills) -->
+  <section class="services-pills fade-section" id="servicesPillsSection">
+    <h2 id="servicesTitle">الخدمات داخل التطبيق</h2>
+    <div id="servicesList" class="pills-grid"></div>
+  </section>
+
+  <!-- Services long list -->
+  <section class="services-list fade-section" id="servicesLongSection">
+    <h2 id="servicesListTitle">قائمة الخدمات</h2>
+    <ul id="servicesLongList"></ul>
+  </section>
+
+  <!-- Visitor counter -->
+  <div class="visitor-widget" aria-hidden="false">
+    <div class="visitor-inner">
+      <div id="counterBox" class="visitor-num">0</div>
+      <div id="visitorsTitle" class="visitor-label">زائر</div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section class="contact fade-section">
+    <h2 id="contactTitle">تواصل معنا</h2>
+    <p> 774409663</p>
+    <p> 772366133</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p id="footerText">© 2025 المكلا تيليكوم - جميع الحقوق محفوظة</p>
+  </footer>
+
+  <!-- script (external) -->
+  <script src="script.js"></script>
+</body>
+</html>
